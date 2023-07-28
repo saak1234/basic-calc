@@ -1,7 +1,10 @@
 .position{
-    position:absolute;
-   margin:18rem;
-   margin-left:30rem;
-   background-color: rgb(2, 5, 25);
-   padding: 8px;
+  position: absolute;
+    margin: 21vh;
+    margin-left: 49vh;
+    margin-top: 8vh;
+    background-color: rgb(2, 5, 25);
+    padding: 1vh;
+    height: 39vh;
+    width: 48vh;
 }

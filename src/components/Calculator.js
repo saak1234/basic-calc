@@ -10,9 +10,12 @@ const Calculator =props=>{
 
         setInput(eval(input))
     }
-    return<div>
-    <p className={classes.calc}>Simple Calculator</p>
-    <Display input={input}/>
+    const inputHandler=(e)=>{
+        setInput(e.target.value)
+    }
+    return<div className={classes.resize}>
+        <div>    <p className={classes.calc}>Simple Calculator</p>
+    <Display input={input} inputHandler={inputHandler} answerHandler={answerHandler}/>
     <Buttongroup onstar={()=>setInput(input + '*')}
     on9={()=>setInput(input + '9')}
     on8={()=>setInput(input + '8')}
@@ -29,7 +32,9 @@ const Calculator =props=>{
     answer={answerHandler}
     plus={()=>{setInput(input + '+')}}
     onclear={()=>{setInput('')}}
-/>
+    
+/></div>
+
     </div>
 }
 export default Calculator;

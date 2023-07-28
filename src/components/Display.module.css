@@ -1,11 +1,11 @@
 .adjust{
-    margin:18rem;
-    margin-left:30rem;
-    margin-bottom:-18rem;
-    width: 325px;
-    height: 8rem;
-    margin-top:8rem;
+      margin: 50vh;
+    margin-left: 49vh;
+    margin-bottom: -28vh;
+    width: 48vh;
+    height: 21vh;
+    margin-top: 13vh;
     background-color: rgb(222, 211, 211);
-    border:15px solid black;
-    
+    border: 15px solid black;
+    outline: none;
 }
